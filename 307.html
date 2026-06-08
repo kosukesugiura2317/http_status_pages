@@ -2,14 +2,42 @@
 <html lang="ja">
 <meta charset="utf-8">
 <title>307 Temporary Redirect</title>
+
 <style>
-body{text-align:center;font-family:sans-serif;margin:0}
-h1{background:#333;color:white;margin:0;padding:1em}
-.dummy{font-size:128px}
+body{
+  text-align:center;
+  font-family:sans-serif;
+  margin:0;
+}
+
+h1{
+  background:#333;
+  color:white;
+  margin:0;
+  padding:1em;
+}
+
+.dummy{
+  font-size:128px;
+  display:inline-block;
+  animation: move 1.5s infinite ease-in-out;
+}
+
+@keyframes move{
+  0%{transform:translateX(0);}
+  50%{transform:translateX(80px);}
+  100%{transform:translateX(0);}
+}
 </style>
+
 <body>
+
 <h1>307 Temporary Redirect</h1>
-<div class="dummy">↪️</div>
-<p>一時的に別の場所へ行ってな。方法は変えんといてや。</p>
+
+<div class="dummy">🚚</div>
+
+<p>一時的に別の場所へお届け中です。</p>
+<p>配送が終わったら元の場所に戻ります。</p>
+
 </body>
 </html>

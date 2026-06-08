@@ -2,14 +2,45 @@
 <html lang="ja">
 <meta charset="utf-8">
 <title>418 Unused</title>
+
 <style>
-body{text-align:center;font-family:sans-serif;margin:0}
-h1{background:#333;color:white;margin:0;padding:1em}
-.dummy{font-size:128px}
+body{
+  text-align:center;
+  font-family:sans-serif;
+  margin:0;
+}
+
+h1{
+  background:#333;
+  color:white;
+  margin:0;
+  padding:1em;
+}
+
+.teapot{
+  font-size:128px;
+  display:inline-block;
+  animation: tilt 2s infinite ease-in-out;
+}
+
+@keyframes tilt{
+  0%,100%{transform:rotate(0deg);}
+  50%{transform:rotate(-20deg);}
+}
+
+p{
+  font-size:1.2em;
+}
 </style>
+
 <body>
+
 <h1>418 Unused</h1>
-<div class="dummy">🫖</div>
-<p>例のティーポットで有名やけど、IANAでは今は Unused やで。</p>
+
+<div class="teapot">🫖</div>
+
+<p>私はティーポットです。</p>
+<p>コーヒーは淹れられません。</p>
+
 </body>
 </html>
